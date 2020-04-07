@@ -19,8 +19,8 @@ Level::Level(sf::RenderWindow* hwnd, Input* in)
 
 	// initialise game objects
 	ZombieText.loadFromFile("gfx/animZombie.png");
-	ZombieTest.setSize(sf::Vector2f(55, 108));
-	ZombieTest.setPosition(500, 500);
+	ZombieTest.setSize(sf::Vector2f(215, 265));
+	ZombieTest.setPosition(500, 200);
 	ZombieTest.setTexture(&ZombieText);
 
 	MarioText.loadFromFile("gfx/MarioSheetT.png");
