@@ -32,6 +32,7 @@ private:
 	//level objects 
 	sf::Texture ZombieText;
 	sf::Texture MarioText;
+	sf::Texture ZekeText;
 	sf::Texture transparent;
 	Zombie ZombieTest;
 	Mario testMario;
